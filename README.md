@@ -6,7 +6,7 @@
 + NMT教程来自[https://tensorflow.google.cn/text/tutorials/transformer](https://tensorflow.google.cn/text/tutorials/transformer)<br/>
 + 数据集来自教程[https://tensorflow.google.cn/text/tutorials/nmt_with_attention](https://tensorflow.google.cn/text/tutorials/nmt_with_attention)中的链接[http://storage.googleapis.com/download.tensorflow.org/data/spa-eng.zip](http://storage.googleapis.com/download.tensorflow.org/data/spa-eng.zip)。或者已经下载解压缩在该项目目录`spa-eng`中<br/>
 + 任务：从Spanish翻译为English<br/>
-+ 运行：进入项目目录，然后直接`python local_runner.py`
++ 运行：进入项目目录(`NMTpipeline`)，然后直接`python local_runner.py`
 + 环境：见`requirement.yaml`，需要tfx(1.13.0)可能旧版本会有不兼容，api不稳定。
 + 项目目录介绍
     + `custom`目录包含定义的预处理（教程来自[https://tensorflow.google.cn/text/guide/subwords_tokenizer](https://tensorflow.google.cn/text/guide/subwords_tokenizer)..等）和Transformer模型
